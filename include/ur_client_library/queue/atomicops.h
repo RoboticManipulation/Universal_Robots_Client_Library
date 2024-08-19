@@ -9,7 +9,7 @@
 // Provides portable (VC++2010+, Intel ICC 13, GCC 4.7+, and anything C++11 compliant) implementation
 // of low-level memory barriers, plus a few semi-portable utility macros (for inlining and alignment).
 // Also has a basic atomic type (limited to hardware-supported atomics with no memory ordering guarantees).
-// Uses the AE_* prefix for macros (historical reasons), and the "moodycamel" namespace for symbols.
+// Uses the AE_* tf_prefix for macros (historical reasons), and the "moodycamel" namespace for symbols.
 
 #include <cassert>
 #include <cerrno>
